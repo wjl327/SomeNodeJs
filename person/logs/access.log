@@ -1,0 +1,10 @@
+[2014-09-22 19:29:39.316] [INFO] dateFileLog - select * from person
+[2014-09-22 19:29:39.322] [ERROR] dateFileLog - select * from person
+[2014-09-22 19:29:40.722] [INFO] dateFileLog - select * from person
+[2014-09-22 19:29:40.722] [ERROR] dateFileLog - select * from person
+[2014-09-22 19:29:41.626] [INFO] dateFileLog - select * from person
+[2014-09-22 19:29:41.628] [ERROR] dateFileLog - select * from person
+[2014-09-22 19:29:49.019] [INFO] dateFileLog - select * from person
+[2014-09-22 19:29:49.020] [ERROR] dateFileLog - select * from person
+[2014-09-22 19:29:49.709] [INFO] dateFileLog - select * from person
+[2014-09-22 19:29:49.710] [ERROR] dateFileLog - select * from person
