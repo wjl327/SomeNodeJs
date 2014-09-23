@@ -1,13 +1,13 @@
 var url = require("url");
 var sys = require('sys');
 var logger = require('../lib/log').logger;
-var conn = require('../lib/mysqldb').conn;
+var conn = require('../lib/simple_mysql').conn;
 
 
 exports.getOne = function(req, res){
 
 	var sql = 'select * from person where id = ' + req.params.id;
-	onsole.log(sql);
+	console.log(sql);
 
 	conn.query(sql, function(err, rows, field){
 		if(err){

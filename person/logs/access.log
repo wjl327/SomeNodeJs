@@ -8,3 +8,11 @@
 [2014-09-22 19:29:49.020] [ERROR] dateFileLog - select * from person
 [2014-09-22 19:29:49.709] [INFO] dateFileLog - select * from person
 [2014-09-22 19:29:49.710] [ERROR] dateFileLog - select * from person
+[2014-09-23 13:58:16.984] [INFO] dateFileLog - select * from person
+[2014-09-23 13:58:26.925] [INFO] dateFileLog - select * from class
+[2014-09-23 13:58:31.550] [INFO] dateFileLog - select * from class where id = 1
+[2014-09-23 13:59:22.509] [INFO] dateFileLog - select * from class where id = 1
+[2014-09-23 13:59:37.376] [INFO] dateFileLog - select * from class where id = 1
+[2014-09-23 13:59:38.640] [INFO] dateFileLog - select * from class where id = 1
+[2014-09-23 13:59:39.530] [INFO] dateFileLog - select * from class where id = 1
+[2014-09-23 13:59:40.543] [INFO] dateFileLog - select * from class where id = 1

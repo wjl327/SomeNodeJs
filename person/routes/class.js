@@ -1,7 +1,7 @@
 var url = require("url");
 var sys = require('sys');
 var logger = require('../lib/log').logger;
-var conn = require('../lib/mysqldb').conn;
+var conn = require('../lib/simple_mysql').conn;
 var Q = require('q');
 
 exports.getOne_old = function(req, res){

@@ -4,7 +4,6 @@
  */
 var express = require('express');
 var routes = require('./routes');
-var user = require('./routes/user');
 var http = require('http');
 var path = require('path');
 var partials = require('express-partials');
@@ -34,7 +33,6 @@ var person = require('./routes/person');
 var clazz = require('./routes/class');
 
 app.get('/', routes.index);
-app.get('/users', user.list);
 app.get('/api/person', person.getList);
 app.get('/api/person/:id', person.getOne);
 app.put('/api/person/:id', person.update);
