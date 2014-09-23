@@ -31,6 +31,7 @@ if ('development' == app.get('env')) {
 //me
 var person = require('./routes/person');
 var clazz = require('./routes/class');
+var clazz2 = require('./routes/class2');
 
 app.get('/', routes.index);
 app.get('/api/person', person.getList);
@@ -41,6 +42,10 @@ app.post('/api/person', person.insert);
 
 app.get('/api/class', clazz.getList);
 app.get('/api/class/:id', clazz.getOne);
+
+app.get('/api/class2', clazz2.getList);
+app.get('/api/class2/:id', clazz2.getOne);
+app.post('/api/class2', clazz2.update);
 
 
 http.createServer(app).listen(app.get('port'), function(){

@@ -65,7 +65,6 @@ exports.getOne = function(req, res){
 			var sql = 'select count(*) cnt from person where class = ' + clazz.id;
 
 			conn.query(sql, function(err, rows){
-				console.log(rows);
 				clazz.counts = rows[0].cnt;
 				res.end(JSON.stringify(clazz));
 				/*res.setHeader('Content-Type', 'application/json; charset=utf-8');
