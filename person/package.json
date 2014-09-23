@@ -10,6 +10,7 @@
     "express-partials": "*",
     "ejs": "*",
     "mysql":"~2.3.2",
-    "log4js":"*"
+    "log4js":"*",
+    "q": "~1.0.1"
   }
 }

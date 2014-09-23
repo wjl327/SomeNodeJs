@@ -6,7 +6,7 @@ log4js.configure({
 		{
 			type: 'dateFile',
 			filename: 'logs/access.log',
-      		pattern: "_yyyy-MM-dd hh",
+      		pattern: "_yyyy-MM-dd",
       		alwaysIncludePattern: false,
 			category: 'dateFileLog'
 		},

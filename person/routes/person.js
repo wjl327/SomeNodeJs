@@ -1,17 +1,8 @@
 var url = require("url");
 var sys = require('sys');
-var mysql = require('mysql');
 var logger = require('../lib/log').logger;
+var conn = require('../lib/mysqldb').conn;
 
-var conn = mysql.createConnection({
-	host:'localhost',
-	user:'root',
-	database:'test',
-	password:'123456',
-	port:3306
-});
-
-conn.connect();
 
 exports.getOne = function(req, res){
 

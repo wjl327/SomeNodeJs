@@ -2,7 +2,6 @@
 /**
  * Module dependencies.
  */
-
 var express = require('express');
 var routes = require('./routes');
 var user = require('./routes/user');
@@ -32,6 +31,7 @@ if ('development' == app.get('env')) {
 
 //me
 var person = require('./routes/person');
+var clazz = require('./routes/class');
 
 app.get('/', routes.index);
 app.get('/users', user.list);
@@ -40,6 +40,10 @@ app.get('/api/person/:id', person.getOne);
 app.put('/api/person/:id', person.update);
 app.delete('/api/person/:id', person.delete);
 app.post('/api/person', person.insert);
+
+app.get('/api/class', clazz.getList);
+app.get('/api/class/:id', clazz.getOne);
+
 
 http.createServer(app).listen(app.get('port'), function(){
   console.log('Express server listening on port ' + app.get('port'));
